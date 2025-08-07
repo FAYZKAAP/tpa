@@ -1,0 +1,150 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 0;
+}
+nav  ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+select {
+  padding: 11px 14px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.btn {
+  padding: 14px 25px;
+  border: none;
+  background-color: inherit;
+  color:#FFB800;
+}
+.hero {
+  background-color:#FFB800 ;
+  padding: 40px 0;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dic {
+  flex-direction: column;
+}
+h1 {
+font-weight: 700;
+font-size: 70px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.hero p {
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #504F4F;
+padding: 40px 0;
+}
+.text {
+  width: 785px;
+  height: 200px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+.btn3:hover {
+  padding: 14px 25px;
+  border: none;
+  background-color: inherit;
+  color:#FFB800;
+  background: #fa640d1a;
+
+}
+.btn3 {
+  padding: 14px 25px;
+  border: none;
+  background-color: inherit;
+  color:#757575;
+  border-radius: 16px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+input {
+  width: 530px;
+  height: 60px;
+  border-radius: 8px ;
+}
+.btn2 {
+  padding: 21px 48px;
+  margin-left: 20px;
+  background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+h2 {
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #424242;
+}
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.card {
+    margin-top: 100px;
+    text-align: left;
+    width: 100px 0;
+}
+h3{
+
+font-weight: 700;
+font-size: 43px;
+line-height: 112.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+color: #F17228;
+}
+.card2 {
+  width: 307px;
+  height: 229px;
+  text-align: center;
+}
+h4 {
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.hero3 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  
+}
+.ota2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
